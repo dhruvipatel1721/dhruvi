@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.cantein{
+    height: 500px;
+    width: 70%;
+    /* border: 5px black solid; */
+    margin:  0 auto;
+    color: darkblue;
+}
+.view{
+    height: 200px;
+    width: 240px;
+    float: left;
+    margin: 10px;
+    min-width: 220px;
+    max-width: 240px;
+}
+.new img{
+    height: 80%;
+    width: 100%;
+    border-radius: 0 20px;
+   
+}
+.data{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
