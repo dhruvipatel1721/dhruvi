@@ -1,0 +1,58 @@
+body{
+    background-image: url(../img/00000.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    float: left;
+}
+.box1{
+    background-size: cover;
+    background-image: url(../img/flower2.jpeg);
+    background-position: center center;
+    
+}
+.box2{
+    background-size: cover;
+    background-image: url(../img/flower3.jpeg);
+    background-position: center center;
+}
+.box3{
+    background-size: cover;
+    background-image: url(../img/flower4.webp);
+    background-position: center center;
+    
+}
+.box4{
+    background-size: cover;
+    background-image: url(../img/flower5.webp);
+    background-position: center center;
+    
+}
+.box5{
+
+    width: 300px;
+    height: 400px;
+    background-image: url(../img/jdlogo17.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    clear: both;
+
+}
+.box6{
+    float: left;
+    width: 100vw;
+    height: 50vh;
+    background-image:url(../img/flower3.jpeg);
+    overflow: scroll;
+    background-attachment: local;
+    
+}

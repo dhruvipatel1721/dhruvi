@@ -1,0 +1,42 @@
+.box{
+    width: 150px;
+    height: 250px;
+    background-color: rgb(165, 96, 139);
+
+}
+.static{
+    position: static;
+    top: 100px;
+    right: 100px;
+}
+.Relativedemo{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.Absolutedemo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 400px;
+}
+.absolute{
+    width: 400px;
+    height: 300px;
+    background-color: aqua;
+    position: relative;
+}
+.absolutewith{
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.fixed{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.sticky{
+    position: sticky;
+    top: 100px;
+}

@@ -1,0 +1,109 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+
+}
+.box{
+    /* position: fixed; */
+    height: 100px;
+    width: 80%;
+    /* border: 2px solid black; */
+    position: sticky;
+    top: 10px;
+    z-index: 999;
+    background-color: white;
+}
+.one {
+    height: 100%;
+    width: 100%;
+}
+
+.ooo {
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid rgb(23, 25, 179); */
+    float: left;
+    position: sticky;
+}
+
+.two {
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid rgb(132, 30, 30); */
+    float: right;
+
+}
+
+.two img {
+    height: 100%;
+    width: 100%;
+    float: right;
+}
+
+.three {
+    width: 80%;
+    /* border: 2px solid rgb(31, 146, 66); */
+
+}
+
+.four {
+    height: 300px;
+    width: 30%;
+    /* border: 2px solid rgb(193, 18, 111); */
+    float: left;
+    margin: 15px;
+}
+
+.five {
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid rgb(25, 193, 240); */
+    position: relative;
+}
+
+.five img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.six {
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid rgb(19, 109, 9); */
+
+}
+
+.four i {
+    float: right;
+    margin: 5px;
+    /* border: black 1px solid; */
+    border-radius: 50px;
+    padding: 2px;
+}
+
+.new {
+    text-align: center;
+
+}
+
+.new h3 {
+    /* border: 2px solid rgb(211, 24, 24); */
+}
+.five i{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: red;
+}
+.upkey{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+button{
+    font-size: 20px;
+    color: black;
+}
