@@ -1,0 +1,78 @@
+.cantein {
+    width: 100%;
+    height: 550px;
+    background-color: rgb(210, 224, 211);
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box1 {
+    width: 100px;
+    height: 150px;
+    background-color: rgb(199, 226, 22);
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(9, 9, 83);
+    margin: 10px;
+    text-align: center;
+}
+
+.cantein2 {
+    flex-wrap: wrap;
+}
+
+.cantein3 {
+    justify-content: space-between;
+}
+
+.cantein4 {
+    justify-content: space-around;
+}
+
+.cantein5 {
+    justify-content: space-evenly;
+
+}
+
+.cantein6 {
+    justify-content: end;
+}
+
+.cantein7 {
+    align-items: center;
+}
+
+.cantein8 {
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.cantein9 {
+    align-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.contect10 {
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cantein11 {
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cantein12{
+    align-self: flex-end;
+}
