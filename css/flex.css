@@ -76,3 +76,9 @@ h1 {
 .cantein12{
     align-self: flex-end;
 }
+ .contect15 .box1{
+    flex-basis: 200px;
+}
+.cantein .box1{
+    flex: 0 0 50px;
+}
