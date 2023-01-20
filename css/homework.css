@@ -23,9 +23,8 @@ body {
     margin-bottom: 40px;
     font-size: 25px;
 }
-.block p{
 
-}
+.block p {}
 
 .block {
     display: flex;
@@ -74,7 +73,7 @@ hr {
 .work-data {
     flex-basis: 50%;
     column-gap: 35px;
-    padding:15px;
+    padding: 15px;
 
 }
 
@@ -95,7 +94,7 @@ hr {
     font-size: 20px;
 }
 
-.work-data  button {
+.work-data button {
     background-color: #D90082;
     padding: 12px 22px;
     border: none;
@@ -146,9 +145,7 @@ hr {
 .boxs {
     display: flex;
     width: 100%;
-    column-gap:17px
-    
-    
+    column-gap: 17px
 }
 
 .img-page {
@@ -174,6 +171,7 @@ hr {
 
 
 }
+
 .data p {
     line-height: 28px;
     font-size: 19px;
@@ -186,7 +184,7 @@ hr {
 
 .s-img {
     display: flex;
-    column-gap:30px;
+    column-gap: 30px;
 
 }
 
@@ -204,10 +202,12 @@ hr {
     flex-basis: 50%;
 
 }
+
 #waiting {
     margin: 100px 0;
 }
-.bluebox{
+
+.bluebox {
     background-color: #1f2836;
     height: 350px;
     width: 100%;
@@ -215,7 +215,8 @@ hr {
     padding: 100px;
 
 }
-.bluebox button{
+
+.bluebox button {
     background-color: #D90082;
     padding: 12px 22px;
     border: none;
@@ -224,33 +225,40 @@ hr {
     font-size: 20px;
     font-weight: bold;
 }
-.bluebox h3{
+
+.bluebox h3 {
     margin: 25px 0 25px 0;
     font-size: 22px;
 }
-.prodect-page h2{
-     font-size: 40px;
+
+.prodect-page h2 {
+    font-size: 40px;
 }
-.prodect-page p{
+
+.prodect-page p {
     font-size: 24px;
     line-height: 30px;
     color: #3f3838;
 }
+
 .service {
     display: flex;
     column-gap: 50px;
     flex-wrap: wrap;
     row-gap: 40px;
 }
-.design{
+
+.design {
     margin: 10px 0;
 }
-.service h2{
-    font-size:24px;
+
+.service h2 {
+    font-size: 24px;
     line-height: 15px;
     margin-top: 22px;
 }
-.submit2 button{
+
+.submit2 button {
     background-color: #D90082;
     padding: 12px 22px;
     border: none;
@@ -260,118 +268,146 @@ hr {
     font-weight: bold;
 
 }
-.submit2{
+
+.submit2 {
     display: flex;
     justify-content: center;
-    margin:70px 0 70px 0;
+    margin: 70px 0 70px 0;
 }
-.bluebox2{
+
+.bluebox2 {
     background-color: #1f2836;
     height: 350px;
     width: 100%;
     color: aliceblue;
     padding: 50px;
 }
-.links{
-    display:flex;
+
+.links {
+    display: flex;
     flex-wrap: wrap;
-    column-gap:100px;
+    column-gap: 100px;
     row-gap: 20px;
 }
+
 .links a {
     font-size: 22px;
     color: aliceblue;
     line-height: 50px;
 }
-#blackbox{
+
+#blackbox {
     width: 100%;
-    height: 700px;
-    background-color:#161e2c;
+    height: 600px;
+    background-color: #161e2c;
     padding: 30px;
 }
 
-.footer{
+.footer {
     display: flex;
     flex-wrap: wrap;
     column-gap: 70px;
 
 }
 
-.section1 img{
+.section1 img {
     width: 130px;
 }
-.section1 i{
-    color: #fff;}
-.footer ul{
-    list-style: none;
-}
-.ulclass {
-margin-top: 40px;
+
+.section1 i {
+    color: #fff;
 }
 
-.footer ul h3, a{
+.footer ul {
+    list-style: none;
+}
+
+.ulclass {
+    margin-top: 40px;
+}
+
+.footer ul h3,
+a {
     font-size: 16px;
     color: aliceblue;
     margin-bottom: 20px;
     text-decoration: none;
 }
-.footer ul a{
+
+.footer ul a {
     font-size: 14px;
     color: rgb(173, 180, 186);
     text-decoration: none;
     line-height: 25px;
 }
-.ios{
+
+.ios {
     border: 1px solid #fff;
     border-radius: 5px;
     display: flex;
-    padding: 5px;
+    padding: 8px;
     margin-bottom: 20px;
-    width: 150px;
+    width: 165px;
+    height: 45px;
 }
-.ios i{
+
+.ios i {
     font-size: 25px;
     margin-right: 15px;
 }
-.ios p{
+
+.ios img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.ios p {
     color: #fff;
     font-size: 10px;
     margin: 0;
 }
-.ios h4{
+
+.ios h4 {
     color: #fff;
     font-size: 17px;
 }
+
 .icon li i {
     color: #fff;
     font-size: 20px;
 
 }
+
 .lastfooter {
     display: flex;
     column-gap: 10px;
 }
+
 .lastfooter h3 {
-    font-size: 22px;
+    font-size: 16px;
     color: #fff;
     margin: 0;
 
 }
-.lastfooter p{
+
+.lastfooter p {
     font-size: 12px;
     color: #fff;
     margin: 0;
 
 }
-.lastfooter .count{
+
+.lastfooter .count {
     flex-basis: 50%;
 
 }
 
+.hr1 {
+    width: 100%;
+    margin: 50px 0;
+    height: 0.5px;
+    border: none;
+    background-color: rgba(254, 254, 255, 0.2);
 
-
-
-
-
-
-
+}
