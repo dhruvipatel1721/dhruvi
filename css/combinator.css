@@ -1,0 +1,44 @@
+.combi > p{
+    font-size: 30px;
+    color:  rgb(141, 8, 212);
+}
+.combi h2+p {
+    color: blue;
+}
+.combi div ~ p {
+    font-weight: bold;
+}
+.link1 a:link {
+    color: chartreuse;
+}
+.link1 a:hover{
+    color: darkred;
+}
+.link1 a:active{
+    color: blue;
+}
+.link1 a:visited{
+    color: fuchsia;
+}
+ul li:first-child p{
+    font-weight: 700;
+}
+.box ul li:last-child p{
+    color: blue;
+}
+ul li:nth-child(3){
+    font-size: 30px;
+    color: rgb(86, 15, 152);
+}
+p i:first-child{
+    font-size: 30px;
+}
+li:nth-child(2) i{
+    font-size: 30px;
+    font-weight: bold;
+}
+input:focus{
+    outline: none;
+    border: 2px  solid  rgb(224, 8, 8);
+}
+
